@@ -1,0 +1,123 @@
+/* General container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif; /* Modern and clean font */
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Form section */
+.form-section {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-section label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.form-section input {
+    padding: 8px;
+    font-size: 14px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    display: inline-block;
+}
+
+.form-section button {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-section button:hover {
+    background-color: #45a049;
+}
+
+/* Message section */
+.message {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #007bff;
+    text-align: center;
+}
+
+/* Policy info */
+.policy-info {
+    margin-top: 30px;
+}
+
+.policy-info table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.policy-info table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.policy-info th {
+    background-color: #f2f2f2;
+}
+
+.center-container {
+    display: flex;          /* Make the container a flex container */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center;     /* Centers content vertically */
+    height: 100vh;           /* Full height of the viewport */
+    text-align: center;      /* Ensures text is centered inside child elements */
+  }
+
+
+  .push-right {
+    padding-left: 20px; /* Adjust the value as needed */
+  }
+  h1.push-right {
+    text-align: center;  /* Center the heading */
+  }
+  
+  .edi-container {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  pre {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: monospace;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  
+  
